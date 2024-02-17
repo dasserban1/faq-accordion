@@ -5,7 +5,7 @@ html{
     font-style: normal;
 }
 body{
-    background-image: url(./assets//images/background-pattern-mobile.svg);
+    background-image: url(assets//images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-color: hsl(275, 100%, 97%);
@@ -62,10 +62,10 @@ img{
     border: none;
 }
 .accordion::after{
-    content: url(/assets/images/icon-plus.svg);
+    content: url(assets/images/icon-plus.svg);
 }
 .accordion.active::after{
-    content: url(/assets/images/icon-minus.svg);
+    content: url(assets/images/icon-minus.svg);
 }
 @media (min-width: 1200px) {
     body{
